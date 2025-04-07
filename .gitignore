@@ -9,3 +9,5 @@ src/**
 
 # baku
 html/**
+drafts/**
+.DS_Store
