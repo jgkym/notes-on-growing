@@ -1,0 +1,11 @@
+
+# pixi environments
+.pixi
+*.egg-info
+pixi.lock
+pyproject.toml
+src/**
+.gitattributes
+
+# baku
+html/**
