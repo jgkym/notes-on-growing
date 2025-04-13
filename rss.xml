@@ -7,5 +7,106 @@
     <language>en-us</language>
 
 
+    <item>
+      <link>https://jgkym.github.io/2025/04/13/notes-on-growing-25-15.html</link>
+      <guid>https://jgkym.github.io/2025/04/13/notes-on-growing-25-15.html</guid>
+      <title><![CDATA[Notes on Growing 25/15]]></title>
+      <description><![CDATA[<h1>Notes on Growing 25/15</h1>
+
+<blockquote>
+<p>ð¯ <strong><em>Just ship some AI stuff. Learn by doing.</em></strong></p>
+</blockquote>
+
+<h2>MON</h2>
+
+<ul>
+<li>Dipped into deployment by publishing a simple webpage<br/></li>
+<li>Realized I need a better handle on GitHub Actions &amp; workflows<br/></li>
+<li>Started poking around FastAPIâkinda stuck on the whole API thing.<br/>
+
+<ul>
+<li>REST? OpenAPI? Still a bit fuzzy.</li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>TUE</h2>
+
+<ul>
+<li>Built a tiny RAG from scratch in pure Python<br/>
+
+<ul>
+<li>Tried to piece together the concepts behind RAG and fine-tuning<br/></li>
+</ul></li>
+<li>Switched from <code>pixi</code> to <code>uv</code> â super smooth.<br/>
+
+<ul>
+<li>Loving how Python-focused and easy to pick up it is.</li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>WED</h2>
+
+<ul>
+<li>ð Just read. A lot. Mostly about prompt engineering and how to write better prompts.<br/></li>
+</ul>
+
+<hr/>
+
+<h2>THU</h2>
+
+<ul>
+<li>Got some starter code from ChatGPT for a mini LLM app (Streamlit + FastAPI)<br/>
+
+<ul>
+<li>Learn-by-doing is <em>crazy</em> effective with ChatGPT around<br/>
+
+<ul>
+<li>10 mins of chatting &gt; 2 hours of reading docs<br/></li>
+</ul></li>
+<li>Wondering:
+
+<ul>
+<li>Should I preload the model on startup for lower latency?</li>
+<li>How do I handle chat history per user?</li>
+</ul></li>
+</ul></li>
+<li><code>uv</code> still winning over <code>pixi</code> in my exp<br/>
+
+<ul>
+<li>Havenât hit a single dependency headache since switching</li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>SUN</h2>
+
+<ul>
+<li><a href="https://github.com/jgkym/tiny-llm-app/issues/1">Tiny LLM app</a> is up and running ð<br/>
+
+<ul>
+<li>Huge step in wrapping my head around app production<br/></li>
+<li>Deployed with <code>ngrok</code>, but now curious about going deeper:<br/>
+
+<ul>
+<li>Kubernetes? Cloud hosting? Letâs go.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>Recap</h2>
+
+<p>ð Took the first real steps in learning by doing<br/>
+ð§ Still reading a bit too muchâneed to turn more of that into action  </p>
+]]></description>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
