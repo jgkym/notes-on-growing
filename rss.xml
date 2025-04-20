@@ -8,6 +8,92 @@
 
 
     <item>
+      <link>https://jgkym.github.io/2025/04/20/notes-on-growing-25-16.html</link>
+      <guid>https://jgkym.github.io/2025/04/20/notes-on-growing-25-16.html</guid>
+      <title><![CDATA[Notes on Growing 25/16]]></title>
+      <description><![CDATA[<h1>Notes on Growing 25/16</h1>
+
+<blockquote>
+<p>ð¯ <strong><em>Make <a href="https://github.com/jgkym/tiny-llm-app/issues/1">the tiny LLM app</a> a bit more usable &amp; pull Anki flashcards from Obsidian notes via MCP</em></strong></p>
+</blockquote>
+
+<h2>MON</h2>
+
+<ul>
+<li>Tried to get into MCP<br/>
+
+<ul>
+<li>Read through the official docs<br/></li>
+<li>Still trying to wrap my head around the basicsâsever? client? host?</li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>WED</h2>
+
+<ul>
+<li>Dug into fine-tuning and quantization<br/>
+
+<ul>
+<li>Feels like I kinda fell off track<br/></li>
+<li>Time to re-align with the original goal for this week</li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>THU</h2>
+
+<ul>
+<li>Paused further deployment work on the tiny LLM app<br/>
+
+<ul>
+<li>Why? Got overwhelmed by network stuff like SSL, port forwarding, all that jazz
+
+<ul>
+<li>Took a breather before falling too deep down the rabbit hole</li>
+</ul></li>
+<li>Shifted gears to focus more on MCP dev<br/></li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>FRI</h2>
+
+<ul>
+<li>Wrote the base code for fine-tuning<br/>
+
+<ul>
+<li>Vanilla LoRA + HF PEFT<br/></li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>SAT</h2>
+
+<ul>
+<li>Watched a YouTube Short with a hilarious API analogy<br/>
+
+<ul>
+<li>Would be fun to turn what Iâve learned into a short story or sketch<br/></li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>Recap</h2>
+
+<p>â Still fuzzy on the whole network side of things. Not diving deep yetâjust want the big picture for now<br/>
+ð Some strong ideation energy this week (MCP + Anki + Obsidian = ð¥). Even got a few workouts in<br/>
+ð§ Drifted off goal a bitâfelt scattered. Need to lock in and focus on one thing at a time.</p>
+]]></description>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0900</pubDate>
+    </item>
+
+    <item>
       <link>https://jgkym.github.io/2025/04/13/notes-on-growing-25-15.html</link>
       <guid>https://jgkym.github.io/2025/04/13/notes-on-growing-25-15.html</guid>
       <title><![CDATA[Notes on Growing 25/15]]></title>
