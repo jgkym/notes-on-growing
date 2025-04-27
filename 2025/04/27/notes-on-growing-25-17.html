@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Notes on Growing 25/17 &mdash; Blog</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../../../static/light.css" type="text/css">
+<link rel="stylesheet" href="../../../static/pygments.css" type="text/css">
+<link rel="shortcut icon" href="../../../static/icon.ico" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<header><span>April 27, 2025</span></header>
+<article>
+<h1>Notes on Growing 25/17</h1>
+
+<blockquote>
+<p>🎯 <strong><em>Get into DPO</em></strong></p>
+</blockquote>
+
+<h2>TUE</h2>
+
+<ul>
+<li>Learned about bucket sort<br>
+
+<ul>
+<li>Under specific conditions — linear time + space complexity only<br></li>
+</ul></li>
+<li>Cleaned up the notes inbox (notes → flashcards)<br>
+
+<ul>
+<li>Got a basic instruction set for generating flashcards, but it still felt like running errands<br></li>
+<li>Definitely need an agent — something to open notes, extract high-quality flashcards, and push to Anki... maybe with DSPy?</li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>WED</h2>
+
+<ul>
+<li>Back to DSPy — it’s been a while<br>
+
+<ul>
+<li>Way easier now — no need to bury myself in the docs anymore<br></li>
+<li>Heard about DSPy 3.0 dropping soon — perfect timing!<br></li>
+</ul></li>
+<li>Shifted my thinking on prompt engineering<br>
+
+<ul>
+<li>Used to think <em>shorter prompts = better performance</em> (intrinsic capacity ↑, less context pooling)<br></li>
+<li>Found some hacked prompts from proprietary orgs<br></li>
+<li>DSPy basically uses prompts for LLMs. How does that make output consistent?</li>
+<li>Feels more like an annealing process now.</li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>THU</h2>
+
+<ul>
+<li>Built a local app to help me practice more natural English<br>
+
+<ul>
+<li>DSPy programming + free-tier Gemini API<br></li>
+<li>Super easy and fun — a few cracks here and there, but still rolling<br></li>
+</ul></li>
+<li>Thinking ahead:<br>
+
+<ul>
+<li>Should I focus on end-to-end flows, or maximize flexibility?<br></li>
+<li>Big decision points coming up as I extend this into a fuller app<br></li>
+</ul></li>
+<li>Published my notes to GitHub<br>
+
+<ul>
+<li>Strong need for a static site: searchable, wiki links, pandoc-rendered pages</li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>SAT</h2>
+
+<ul>
+<li>Prompting <em>all day!</em><br>
+
+<ul>
+<li>Stepped back from hardcore building of the Anki flashcard generator<br>
+
+<ul>
+<li>Maybe a high-quality prompt is enough for now<br></li>
+</ul></li>
+<li>Learned some pinpoint lessons from OpenAI<br>
+
+<ul>
+<li>Watched a DeepLearning.AI video — huge step forward in understanding prompting<br></li>
+</ul></li>
+<li>Realized:<br>
+
+<ul>
+<li>You’re basically instructing an LLM where you want the next token sampled from<br></li>
+<li>Putting a Korean token in the instructions explicitly helped fix a bilingual problem</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>SUN</h2>
+
+<ul>
+<li>Built an Obsidian plugin!<br>
+
+<ul>
+<li>Uses spaced repetition to sync Obsidian notes with Anki<br></li>
+<li>Starter code from Gemini — solid foundation<br></li>
+</ul></li>
+<li>Hit some syncing issues<br>
+
+<ul>
+<li>Initial sync works, but errors pop up afterward<br></li>
+<li>Needs fixing — maybe add an auto-sync feature too<br></li>
+</ul></li>
+<li>For now: using it locally. Planning to polish and eventually release.</li>
+</ul>
+
+<hr>
+
+<h2>Recap</h2>
+
+<p>👏 Repo-based workflows locked in — marching toward real applications. Big improvements in my note-taking system.<br>
+🔧 Pretty far off from the DPO goal I set for the week. Focus shifted day by day. Need more consistency in sticking to a plan.</p>
+
+</article>
+<nav>
+
+<div id="prev"><span>« <a href="../../../2025/04/20/notes-on-growing-25-16.html">Notes on Growing 25/16</a></span></div>
+
+
+</nav>
+<footer><span>By <a href="https://jgkym.github.io/">Jingi Kim</a> | <a href="../../../index.html">Index</a></span></footer>
+
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+</body>
+</html>
