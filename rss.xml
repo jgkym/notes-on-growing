@@ -8,6 +8,111 @@
 
 
     <item>
+      <link>https://jgkym.github.io/2025/05/04/notes-on-growing-25-18.html</link>
+      <guid>https://jgkym.github.io/2025/05/04/notes-on-growing-25-18.html</guid>
+      <title><![CDATA[Notes on Growing 25/18]]></title>
+      <description><![CDATA[<h1>Notes on Growing 25/18</h1>
+
+<blockquote>
+<p>ð¯ <strong><em>Dip into Reinforcement Learning</em></strong></p>
+</blockquote>
+
+<h2>MON</h2>
+
+<ul>
+<li>Updated the Obsidian plugin<br/>
+
+<ul>
+<li>Addressed the syncing issue<br/></li>
+<li>Found some edge cases during sync, but chose not to fix (for now):<br/>
+
+<ul>
+<li><strong>Case 1:</strong> Title-only changes cause duplicates since theyâre seen as new content<br/></li>
+<li><strong>Case 2:</strong> Moved files aren't tracked â they just stay in the system<br/></li>
+</ul></li>
+<li>Adding fixes would complicate things â putting it on hold until Iâm sure itâs worth the trade-off<br/></li>
+</ul></li>
+<li>Updated and released <a href="https://github.com/jgkym/cli-llm">cli-llm</a><br/>
+
+<ul>
+<li>First time sharing a codebase publicly<br/></li>
+<li>Also shared in the DSPy Discord â nice milestone!<br/></li>
+</ul></li>
+<li>â Still wondering: do I really need a fully end-to-end setup?</li>
+</ul>
+
+<hr/>
+
+<h2>WED</h2>
+
+<ul>
+<li>Supercharged the PKM system<br/>
+
+<ul>
+<li>Promoted grounded notes to active recall with Anki<br/></li>
+<li>Leveraging FSRS for smarter spaced repetition<br/></li>
+<li>Built a hierarchical note-taking flow:<br/>
+
+<ul>
+<li><strong>Literature (long)</strong> â <strong>Rephrased (medium)</strong> â <strong>My own words (short)</strong><br/></li>
+</ul></li>
+<li>â Noticed a strong reliance on LLMs â need to develop muscle to think independently<br/></li>
+<li>Considering building my own wiki</li>
+</ul></li>
+<li>Prompting for OCR<br/>
+
+<ul>
+<li>Surprisingly, ChatGPT (via subscription) handles OCR pretty well<br/></li>
+<li>Struggles with block math and irregular layouts though<br/>
+
+<ul>
+<li>Fixed this by breaking instructions into smaller, bite-sized prompts<br/></li>
+</ul></li>
+<li>Also updated some prompts to streamline note-taking</li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>THU</h2>
+
+<ul>
+<li>Jumped into DPO<br/>
+
+<ul>
+<li>Reviewed some heavy math<br/>
+
+<ul>
+<li>Change of variables<br/></li>
+<li>Maximum likelihood estimation (MLE)</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>FRI</h2>
+
+<ul>
+<li>Continued with the math foundations for DPO<br/>
+
+<ul>
+<li>Information theory refresher<br/></li>
+<li>Revisiting some topics â feels new, even if Iâve seen them before</li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<h2>Recap</h2>
+
+<p>ð Published a repo to the community â first step into sharing, and it felt great. More apps coming.<br/>
+ð§ Post-launch was a bit hazy â felt lost and inefficient. Need a more practical, focused way forward.</p>
+]]></description>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0900</pubDate>
+    </item>
+
+    <item>
       <link>https://jgkym.github.io/2025/04/27/notes-on-growing-25-17.html</link>
       <guid>https://jgkym.github.io/2025/04/27/notes-on-growing-25-17.html</guid>
       <title><![CDATA[Notes on Growing 25/17]]></title>

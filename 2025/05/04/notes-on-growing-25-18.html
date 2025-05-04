@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Notes on Growing 25/18 &mdash; Blog</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../../../static/light.css" type="text/css">
+<link rel="stylesheet" href="../../../static/pygments.css" type="text/css">
+<link rel="shortcut icon" href="../../../static/icon.ico" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<header><span>May 04, 2025</span></header>
+<article>
+<h1>Notes on Growing 25/18</h1>
+
+<blockquote>
+<p>🎯 <strong><em>Dip into Reinforcement Learning</em></strong></p>
+</blockquote>
+
+<h2>MON</h2>
+
+<ul>
+<li>Updated the Obsidian plugin<br>
+
+<ul>
+<li>Addressed the syncing issue<br></li>
+<li>Found some edge cases during sync, but chose not to fix (for now):<br>
+
+<ul>
+<li><strong>Case 1:</strong> Title-only changes cause duplicates since they’re seen as new content<br></li>
+<li><strong>Case 2:</strong> Moved files aren&#39;t tracked — they just stay in the system<br></li>
+</ul></li>
+<li>Adding fixes would complicate things — putting it on hold until I’m sure it’s worth the trade-off<br></li>
+</ul></li>
+<li>Updated and released <a href="https://github.com/jgkym/cli-llm">cli-llm</a><br>
+
+<ul>
+<li>First time sharing a codebase publicly<br></li>
+<li>Also shared in the DSPy Discord — nice milestone!<br></li>
+</ul></li>
+<li>❓ Still wondering: do I really need a fully end-to-end setup?</li>
+</ul>
+
+<hr>
+
+<h2>WED</h2>
+
+<ul>
+<li>Supercharged the PKM system<br>
+
+<ul>
+<li>Promoted grounded notes to active recall with Anki<br></li>
+<li>Leveraging FSRS for smarter spaced repetition<br></li>
+<li>Built a hierarchical note-taking flow:<br>
+
+<ul>
+<li><strong>Literature (long)</strong> → <strong>Rephrased (medium)</strong> → <strong>My own words (short)</strong><br></li>
+</ul></li>
+<li>❓ Noticed a strong reliance on LLMs — need to develop muscle to think independently<br></li>
+<li>Considering building my own wiki</li>
+</ul></li>
+<li>Prompting for OCR<br>
+
+<ul>
+<li>Surprisingly, ChatGPT (via subscription) handles OCR pretty well<br></li>
+<li>Struggles with block math and irregular layouts though<br>
+
+<ul>
+<li>Fixed this by breaking instructions into smaller, bite-sized prompts<br></li>
+</ul></li>
+<li>Also updated some prompts to streamline note-taking</li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>THU</h2>
+
+<ul>
+<li>Jumped into DPO<br>
+
+<ul>
+<li>Reviewed some heavy math<br>
+
+<ul>
+<li>Change of variables<br></li>
+<li>Maximum likelihood estimation (MLE)</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>FRI</h2>
+
+<ul>
+<li>Continued with the math foundations for DPO<br>
+
+<ul>
+<li>Information theory refresher<br></li>
+<li>Revisiting some topics — feels new, even if I’ve seen them before</li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>Recap</h2>
+
+<p>👏 Published a repo to the community — first step into sharing, and it felt great. More apps coming.<br>
+🔧 Post-launch was a bit hazy — felt lost and inefficient. Need a more practical, focused way forward.</p>
+
+</article>
+<nav>
+
+<div id="prev"><span>« <a href="../../../2025/04/27/notes-on-growing-25-17.html">Notes on Growing 25/17</a></span></div>
+
+
+</nav>
+<footer><span>By <a href="https://jgkym.github.io/">Jingi Kim</a> | <a href="../../../index.html">Index</a></span></footer>
+
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+</body>
+</html>
